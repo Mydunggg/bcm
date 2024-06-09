@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+.photo-cell {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.column-2-photo-cell {
+    position: relative;
+    height: 100%;
+    width: 95%;
+}
+
+#tenshukaku {
+    display: flex;
+}
+
+#inazuma-gallery-title {
+    width: 100%;
+    color: white;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#column-2 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 64%;
+    width: auto;
+    top: 3em;
+    margin-left: 2%;
+    margin-right: 2%;
+    flex: 1 1 0;
+}
+
+#column-1 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 50%;
+    width: auto;
+    justify-items:center;
+    top: 8em;
+    margin-left: 2.8%;
+    flex: 2 2 0;
+    margin-bottom: 5%;
+}
+
+#column-0 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 50%;
+    width: auto;
+    justify-items:center;
+    top: 12em;
+    margin-left: 2%;
+    flex: 1 1 0;
+    margin-bottom: 5%;
+}
+
+.column-2-item {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.column-1-item {
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+
+.column-1-item-div {
+    margin-bottom: 6%;
+}
+
+.column-0-item-div {
+    margin-bottom: 9%;
+}

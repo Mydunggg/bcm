@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+#raiden-img {
+    position: relative;
+    height: 80%;
+    width: 80%;
+    top: -80em;
+}
+
+#raiden-desc {
+    background-color: rgba(119, 0, 255, 0.336);
+}
+
+#raiden-demo {
+    border-radius: 8px;
+}
